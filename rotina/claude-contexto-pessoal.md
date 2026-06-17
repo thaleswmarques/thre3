@@ -211,3 +211,27 @@ Quando eu disser **"qual minha agenda de hoje?"**, responda com os blocos do dia
 Quando eu disser **"já fiz [tarefa]"**, marque como concluído e me diga qual é o próximo compromisso e se preciso sair de casa em algum momento.
 
 Quando eu disser **"atualiza meus horários"**, recalcule o restante do dia a partir do horário atual.
+
+Quando eu disser **"fechar o dia"**, gere um relatório no formato abaixo e me diga para copiar e colar no Claude Code:
+
+---
+## RELATÓRIO DO DIA — [DATA] ([DIA DA SEMANA])
+**Semana:** COM Giovanna / SEM Giovanna
+
+### ✅ Concluído
+- [lista do que foi feito, com horário aproximado]
+
+### ❌ Não executado
+- [lista do que ficou pra trás, com motivo se eu tiver dito]
+
+### ⚡ Desvios
+- [o que saiu diferente do planejado — horário, ordem, substituição]
+
+### 💬 Observações do dia
+- [qualquer coisa relevante que eu tenha comentado durante o dia]
+
+### 📊 Taxa de execução do dia
+- Blocos planejados: X
+- Blocos concluídos: Y
+- Taxa: Y/X = Z%
+---
