@@ -35,7 +35,7 @@
 - **Situação financeira:** fica no "elas por elas" — perde só o que já pagou.
 - **Ganho:** deixa de pagar **R$ 750/mês** de financiamento.
 - ⚠️ **Confirmar com João:** quando começa a redução da parcela (este mês ou o próximo).
-- 📅 **Procon:** sexta-feira, 29/06, às 14h30 — burocrático porque o carro não está no seu nome.
+- 📅 **Procon:** **29/06, às 14h30** — ⚠️ *atenção:* 29/06/2026 cai numa **segunda-feira** (não sexta), e o Thales falou "se não me engano" — **confirmar data/hora**. Agendado via Sebrae (dúvidas de CNPJ). Burocrático porque o carro não está no seu nome.
 - **Financiamento:** carta de crédito no nome do João.
 
 ### 2. Mônaco — C4 Cactus branco 🟢
@@ -67,13 +67,38 @@
 - **Financiamento:** quitado, nome da mãe.
 - 📄 **IPVA 2026:** em aberto.
 
-### 6. Detroit — Cruze 🔵 (vendido)
+### 6. Detroit / Brooklyn — Cruze 🔵 (vendido)
+> ⚠️ **Nome a confirmar:** aqui está como **Detroit**; na conversa com o Friday (17/06) o Thales batizou de **Brooklyn**. Definir qual fica oficial.
 - **Status:** vendido para Vicente em **3× R$ 10.000 + 19× R$ 3.000 + telefone de R$ 3.000** (já entregue).
 - **Já pago pelo Vicente:** as 3 parcelas de R$ 10.000 (com atrasos).
 - 💰 **A receber:** 19 parcelas de R$ 3.000 = **R$ 57.000**.
 - **Seguro:** você pagando R$ 340/mês desde janeiro (passa pro Vicente quando ele assumir).
 - 📄 **IPVA 2025:** parcelamento CIAR, vencimentos dia 29 (vencido) e dia 29 deste mês. Faltam 4–5 parcelas.
 - **Financiamento:** estava quitado, no seu nome.
+
+---
+
+## 🗂️ Legenda da frota e veículos pessoais
+
+**Frota de locação (6 carros):** Estúdiga (Gol preto) · Mônaco (C4 Cactus branco) · Paris (C4 Lounge cinza — carro principal de Uber do Thales) · Lyon (C4 grafite) · Monique (Fox branco) · Detroit/Brooklyn ⚠️ (Cruze, vendido p/ Vicente).
+
+**Veículos pessoais (fora da locação):**
+- **Osaka** — S.R.V. da mãe (carro reserva; usado quando o Paris está parado).
+- **Margot** — moto MT-03 (transporte do Thales).
+
+## 📆 Recebimentos fixos semanais (R3nt Admin)
+
+| Quando | Valor | Provável origem |
+|---|---|---|
+| Toda segunda | R$ 900 | aluguel semanal (Mônaco ou Lyon) |
+| Toda quarta | R$ 600 | Monique (Marcos do Lana) |
+| Toda sexta | R$ 900 | aluguel semanal (Lyon ou Mônaco) |
+| Todo dia 25 | R$ 3.000 | Vicente (parcela do Cruze) |
+
+> A confirmar qual locatário paga em cada dia da semana. **Hoje (25/06, quinta) é dia do R$ 3.000 do Vicente.**
+
+## 🤖 Assistente de agenda — "Friday"
+O assistente pessoal de agenda no celular se chama **Friday** (conversa fixa **"Agenda Diária"**). Ele toca a rotina/dia; **o Code mantém o planejamento**. Ciclo: Friday gera o **relatório diário** → Thales traz pro Code → Code atualiza o planejamento. Contexto pessoal salvo no Drive (pasta *Contexto Claude*).
 
 ---
 
