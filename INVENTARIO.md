@@ -1,6 +1,6 @@
 # 🚗 Inventário — R3NT A CAR
 
-> **Última atualização:** 25/06/2026
+> **Última atualização:** 26/06/2026
 > Documento de controle da frota, contas a receber, financiamentos e pendências.
 
 ---
@@ -10,9 +10,9 @@
 | Indicador | Valor |
 |---|---|
 | Veículos na frota | 6 (1 saindo por perda total) |
-| Alugados / gerando receita | 3 (Mônaco, Lyon, Monique) |
+| Alugados / gerando receita | 3 (Mônaco, Lyon, Munich) |
 | Parados | 1 (Paris — oficina) |
-| Saindo / vendidos | 2 (Estúdiga — perda total; Detroit — vendido p/ Vicente) |
+| Saindo / vendidos | 2 (Stuttgart — perda total; Detroit — vendido p/ Vicente) |
 | **Custo fixo mensal hoje** | **~R$ 5.015** |
 | **Custo fixo após ajustes** | **~R$ 3.447** (economia ~R$ 1.568/mês) |
 | **A receber (quantificável)** | **~R$ 60.900** (sendo R$ 57.000 parcelados do Cruze) |
@@ -23,19 +23,19 @@
 
 | # | Nome | Modelo | Status | Locatário | Financiamento |
 |---|---|---|---|---|---|
-| 1 | Estúdiga | Gol preto | 🔴 Perda total (seguradora) | — | Carta de crédito (João) |
+| 1 | Stuttgart | Gol preto | 🔴 Perda total (seguradora) | — | Carta de crédito (João) |
 | 2 | Mônaco | C4 Cactus branco | 🟢 Alugado | Marcos Rosa | Carta de crédito (João) |
 | 3 | Paris | C4 Lounge cinza | 🟡 Oficina | — (meta: app) | Panamericano (mãe) |
 | 4 | Lyon | C4 grafite | 🟢 Alugado | Lucas | Carta de crédito (João) |
-| 5 | Monique | Fox branco | 🟢 Alugado | Marcos do Lana | Quitado (mãe) |
+| 5 | Munich | Fox branco | 🟢 Alugado | Marcos do Lana | Quitado (mãe) |
 | 6 | Detroit | Cruze | 🔵 Vendido | Vicente (comprador) | Quitado (seu nome) |
 
-### 1. Estúdiga — Gol preto 🔴
+### 1. Stuttgart — Gol preto 🔴
 - **Status:** perda total na seguradora.
 - **Situação financeira:** fica no "elas por elas" — perde só o que já pagou.
 - **Ganho:** deixa de pagar **R$ 750/mês** de financiamento.
 - ⚠️ **Confirmar com João:** quando começa a redução da parcela (este mês ou o próximo).
-- 📅 **Procon:** **29/06, às 14h30** — ⚠️ *atenção:* 29/06/2026 cai numa **segunda-feira** (não sexta), e o Thales falou "se não me engano" — **confirmar data/hora**. Agendado via Sebrae (dúvidas de CNPJ). Burocrático porque o carro não está no seu nome.
+- 📅 **Procon:** **29/06, às 14h30** (confirmado) — 📌 cai numa **segunda-feira** (a etiqueta "sexta" do relatório original estava errada). Agendado via Sebrae (dúvidas de CNPJ). Burocrático porque o carro não está no seu nome.
 - **Financiamento:** carta de crédito no nome do João.
 
 ### 2. Mônaco — C4 Cactus branco 🟢
@@ -62,13 +62,12 @@
 - **Financiamento:** carta de crédito João (~R$ 70 mil de saldo devedor).
 - 📄 **IPVA 2026:** em aberto.
 
-### 5. Monique — Fox branco 🟢
+### 5. Munich — Fox branco 🟢
 - **Status:** alugado com Marcos do Lana. **Pagou tudo ontem, regular.**
 - **Financiamento:** quitado, nome da mãe.
 - 📄 **IPVA 2026:** em aberto.
 
-### 6. Detroit / Brooklyn — Cruze 🔵 (vendido)
-> ⚠️ **Nome a confirmar:** aqui está como **Detroit**; na conversa com o Friday (17/06) o Thales batizou de **Brooklyn**. Definir qual fica oficial.
+### 6. Detroit — Cruze 🔵 (vendido)
 - **Status:** vendido para Vicente em **3× R$ 10.000 + 19× R$ 3.000 + telefone de R$ 3.000** (já entregue).
 - **Já pago pelo Vicente:** as 3 parcelas de R$ 10.000 (com atrasos).
 - 💰 **A receber:** 19 parcelas de R$ 3.000 = **R$ 57.000**.
@@ -80,10 +79,10 @@
 
 ## 🗂️ Legenda da frota e veículos pessoais
 
-**Frota de locação (6 carros):** Estúdiga (Gol preto) · Mônaco (C4 Cactus branco) · Paris (C4 Lounge cinza — carro principal de Uber do Thales) · Lyon (C4 grafite) · Monique (Fox branco) · Detroit/Brooklyn ⚠️ (Cruze, vendido p/ Vicente).
+**Frota de locação (6 carros):** Stuttgart (Gol preto) · Mônaco (C4 Cactus branco) · Paris (C4 Lounge cinza — carro principal de Uber do Thales) · Lyon (C4 grafite) · Munich (Fox branco) · Detroit (Cruze, vendido p/ Vicente).
 
 **Veículos pessoais (fora da locação):**
-- **Osaka** — S.R.V. da mãe (carro reserva; usado quando o Paris está parado).
+- **Osaka** — Honda CR-V da mãe (carro reserva; usado quando o Paris está parado).
 - **Margot** — moto MT-03 (transporte do Thales).
 
 ## 📆 Recebimentos fixos semanais (R3nt Admin)
@@ -91,11 +90,11 @@
 | Quando | Valor | Provável origem |
 |---|---|---|
 | Toda segunda | R$ 900 | aluguel semanal (Mônaco ou Lyon) |
-| Toda quarta | R$ 600 | Monique (Marcos do Lana) |
+| Toda quarta | R$ 600 | Munich (Marcos do Lana) |
 | Toda sexta | R$ 900 | aluguel semanal (Lyon ou Mônaco) |
 | Todo dia 25 | R$ 3.000 | Vicente (parcela do Cruze) |
 
-> A confirmar qual locatário paga em cada dia da semana. **Hoje (25/06, quinta) é dia do R$ 3.000 do Vicente.**
+> A confirmar qual locatário paga em cada dia. **Vicente:** a parcela do Cruze (R$ 3.000) vence dia 25; em **25/06 ele pagou R$ 1.500** — falta R$ 1.500 deste mês *(a confirmar se era pra essa parcela)*.
 
 ## 🤖 Assistente de agenda — "Friday"
 O assistente pessoal de agenda no celular se chama **Friday** (conversa fixa **"Agenda Diária"**). Ele toca a rotina/dia; **o Code mantém o planejamento**. Ciclo: Friday gera o **relatório diário** → Thales traz pro Code → Code atualiza o planejamento. Contexto pessoal salvo no Drive (pasta *Contexto Claude*).
@@ -126,11 +125,11 @@ O assistente pessoal de agenda no celular se chama **Friday** (conversa fixa **"
 | Paris (C4 Lounge) | Panamericano | Mãe | R$ 2.618 → ~R$ 1.800 | Em revisional (48 prestações) |
 | Lyon (C4 grafite) | Carta de crédito | João | parte do bloco João | ~R$ 70 mil saldo devedor |
 | Mônaco (C4 Cactus) | Carta de crédito | João | parte do bloco João | ~R$ 50 mil de entrada |
-| Estúdiga (Gol) | Carta de crédito | João | R$ 750 | Sai com a perda total |
-| Monique (Fox) | Quitado | Mãe | R$ 0 | — |
+| Stuttgart (Gol) | Carta de crédito | João | R$ 750 | Sai com a perda total |
+| Munich (Fox) | Quitado | Mãe | R$ 0 | — |
 | Detroit (Cruze) | Quitado | Você | R$ 0 | Vendido p/ Vicente |
 
-**Pagamento total ao João:** R$ 1.700/mês → cai para **~R$ 950** quando a Estúdiga sair.
+**Pagamento total ao João:** R$ 1.700/mês → cai para **~R$ 950** quando a Stuttgart sair.
 
 ---
 
@@ -138,10 +137,10 @@ O assistente pessoal de agenda no celular se chama **Friday** (conversa fixa **"
 
 | Veículo | IPVA 2026 | IPVA 2025 |
 |---|---|---|
-| Estúdiga | Em aberto | — |
+| Stuttgart | Em aberto | — |
 | Mônaco | Em aberto | — |
 | Lyon | Em aberto | — |
-| Monique | Em aberto | — |
+| Munich | Em aberto | — |
 | Detroit | Em aberto | Parcelamento CIAR — 2 parcelas (29 vencido + 29 deste mês), faltam 4–5 |
 | Paris | Em aberto | Parcelamento CIAR — última parcela vencida dia 29 do mês passado |
 
@@ -153,13 +152,13 @@ O assistente pessoal de agenda no celular se chama **Friday** (conversa fixa **"
 
 | Item | Hoje | Após ajustes |
 |---|---|---|
-| Bloco João (financiamentos) | R$ 1.700 | R$ 950 *(Estúdiga sai)* |
+| Bloco João (financiamentos) | R$ 1.700 | R$ 950 *(Stuttgart sai)* |
 | Panamericano (Paris) | R$ 2.618 | R$ 1.800 *(revisional)* |
 | Seguro Cruze (Detroit) | R$ 340 | R$ 340 *(até Vicente assumir)* |
 | Seguro C4 (Paris) | R$ 357 | R$ 357 |
 | **Total** | **R$ 5.015** | **R$ 3.447** |
 
-➡️ **Economia projetada: ~R$ 1.568/mês** quando a Estúdiga sair e a revisional do Paris cair.
+➡️ **Economia projetada: ~R$ 1.568/mês** quando a Stuttgart sair e a revisional do Paris cair.
 
 ### Receita de aluguel (conhecida)
 
@@ -167,7 +166,7 @@ O assistente pessoal de agenda no celular se chama **Friday** (conversa fixa **"
 |---|---|---|---|
 | Mônaco | Marcos Rosa | R$ 900/semana | ~R$ 3.600–3.900 |
 | Lyon | Lucas | R$ 900/semana¹ | ~R$ 3.600–3.900 |
-| Monique | Marcos do Lana | *não informado* | — |
+| Munich | Marcos do Lana | *não informado* | — |
 | Paris | — (parado) | potencial R$ 4.000/mês | 0 (em manutenção) |
 
 ¹ Valor do Lyon assumido igual ao do Mônaco (o relatório só cita o débito de R$ 900 da semana). **Confirmar.**
@@ -242,16 +241,16 @@ Vicente alugava o C4 Lounge há anos. No fim de 2025 o C4 parou para manutençã
 1. [ ] **Cobrar Vicente e Marcos Rosa** — liberar capital preso.
 2. [ ] **Liberar o Paris da oficina** — gerar receita com app (maior alavanca de caixa).
 3. [ ] **Regularizar o Detroit** — últimas parcelas do IPVA (CIAR).
-4. [ ] **Confirmar com o João** a redução da parcela da Estúdiga (este mês ou o próximo).
+4. [ ] **Confirmar com o João** a redução da parcela da Stuttgart (este mês ou o próximo).
 5. [ ] **Fechar o cálculo do Vicente** (prejuízo do C4) — decidir cenário e fechar a caução.
-6. [ ] **Procon — sexta 29/06, 14h30** (Estúdiga).
+6. [ ] **Procon — sexta 29/06, 14h30** (Stuttgart).
 7. [ ] **Cobrar Lucas** — R$ 900 do Lyon (vence esta semana).
 
 ---
 
 ## 📌 Premissas e pendências (o que falta para fechar os números)
 
-- **Valor do aluguel do Lyon e do Monique** não informados (Lyon assumido em R$ 900/sem).
+- **Valor do aluguel do Lyon e do Munich** não informados (Lyon assumido em R$ 900/sem).
 - **Manutenção do Cruze:** faixa R$ 3.500–4.000 (usar valor exato do contrato/recibo).
 - **Seguro do C4 no período parado:** confirmar quem pagou e quantos meses.
 - **Datas exatas** das fases do C4 (Vicente / sua mão / oficina) para travar o custo de oportunidade.
