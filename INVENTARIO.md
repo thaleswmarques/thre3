@@ -47,7 +47,7 @@
 - **Financiamento:** nome do João, carta de crédito (quase R$ 50 mil de entrada com carro).
 
 ### 3. Paris — C4 Lounge cinza 🟡
-- **Status:** na oficina. ✅ **Peça comprada (26/06):** válvula termostática 1.6 THP 2 engate (C4 Lounge 2018) — **R$ 450**. Aguardando o mecânico montar e liberar.
+- **Status:** na oficina. ✅ **Peça comprada (26/06):** válvula termostática 1.6 THP 2 engate (C4 Lounge 2018) — **R$ 450**. 📦 Previsão: peça **chega sábado** → Paris deve voltar a rodar **entre segunda e terça**.
 - **Objetivo:** liberar para trabalhar como motorista de app.
 - 💰 **A receber:** R$ 1.000 de vidros (seguradora) + R$ 500 do Vicente.
 - 🔧 **Manutenção:** bobina, carcaça, leque da bandeja (~R$ 1.500) + válvula termostática (R$ 450, já comprada).
