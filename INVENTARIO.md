@@ -47,10 +47,10 @@
 - **Financiamento:** nome do João, carta de crédito (quase R$ 50 mil de entrada com carro).
 
 ### 3. Paris — C4 Lounge cinza 🟡
-- **Status:** na oficina, esperando peça do Mercado Livre (a anterior foi devolvida por defeito).
+- **Status:** na oficina. ✅ **Peça comprada (26/06):** válvula termostática 1.6 THP 2 engate (C4 Lounge 2018) — **R$ 450**. Aguardando o mecânico montar e liberar.
 - **Objetivo:** liberar para trabalhar como motorista de app.
 - 💰 **A receber:** R$ 1.000 de vidros (seguradora) + R$ 500 do Vicente.
-- 🔧 **Manutenção:** bobina, carcaça, leque da bandeja (~R$ 1.500 em peças).
+- 🔧 **Manutenção:** bobina, carcaça, leque da bandeja (~R$ 1.500) + válvula termostática (R$ 450, já comprada).
 - **Financiamento:** Banco Panamericano, nome da mãe, parcela de **R$ 2.618**.
 - ⚖️ **Revisional na justiça:** deve cair para **~R$ 1.800**, em 48 prestações.
 - 📄 **IPVA 2025:** última parcela vencida dia 29 do mês passado (CIAR).
@@ -79,6 +79,8 @@
 
 ## 🗂️ Legenda da frota e veículos pessoais
 
+> 🌍 **Tema dos nomes:** cidade do país da fábrica do carro (VW → **Stuttgart, Munich**; Citroën → **Paris, Lyon, Mônaco**; Chevrolet → **Detroit**; Honda → **Osaka**).
+
 **Frota de locação (6 carros):** Stuttgart (Gol preto) · Mônaco (C4 Cactus branco) · Paris (C4 Lounge cinza — carro principal de Uber do Thales) · Lyon (C4 grafite) · Munich (Fox branco) · Detroit (Cruze, vendido p/ Vicente).
 
 **Veículos pessoais (fora da locação):**
@@ -94,7 +96,7 @@
 | Toda sexta | R$ 900 | aluguel semanal (Lyon ou Mônaco) |
 | Todo dia 25 | R$ 3.000 | Vicente (parcela do Cruze) |
 
-> A confirmar qual locatário paga em cada dia. **Vicente:** a parcela do Cruze (R$ 3.000) vence dia 25; em **25/06 ele pagou R$ 1.500** — falta R$ 1.500 deste mês *(a confirmar se era pra essa parcela)*.
+> A confirmar qual locatário paga em cada dia. **Vicente:** a parcela do Cruze (R$ 3.000) vence dia 25; em **25/06 pagou metade (R$ 1.500)** — **falta R$ 1.500 deste mês.**
 
 ## 🤖 Assistente de agenda — "Friday"
 O assistente pessoal de agenda no celular se chama **Friday** (conversa fixa **"Agenda Diária"**). Ele toca a rotina/dia; **o Code mantém o planejamento**. Ciclo: Friday gera o **relatório diário** → Thales traz pro Code → Code atualiza o planejamento. Contexto pessoal salvo no Drive (pasta *Contexto Claude*).
