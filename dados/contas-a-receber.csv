@@ -1,0 +1,9 @@
+Devedor,Referente,Valor,Prazo,Status
+Vicente,Cruze (19 parcelas de 3000),57000,Parcelado,A receber
+Vicente,Paris (acerto),500,,A receber
+Vicente,Prejuizo C4 Lounge,a definir,,Em negociacao
+Lucas,Lyon (aluguel),900,Esta semana,A receber
+Marcos Rosa,Monaco (calcao),1500,,A receber
+Marcos Rosa,Manutencao (parte),a definir,,Em negociacao
+Seguradora,Paris (vidros),1000,,A receber
+PASSIVO Caucao Vicente,C4 Lounge (a devolver),-3500,Fim da locacao,A devolver
