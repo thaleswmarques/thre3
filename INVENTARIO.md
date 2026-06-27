@@ -1,7 +1,9 @@
 # 🚗 Inventário — R3NT A CAR
 
-> **Última atualização:** 26/06/2026
+> **Última atualização:** 27/06/2026
 > Documento de controle da frota, contas a receber, financiamentos e pendências.
+>
+> 🆕 **Novidades 27/06:** Mônaco sofreu **batida nova ontem à noite** → vai pra oficina (renda do Marcos Rosa, e o aluguel, em risco nos próximos dias). Vicente **ainda não pagou** os R$ 1.500 (metade de junho do Cruze).
 
 ---
 
@@ -10,8 +12,8 @@
 | Indicador | Valor |
 |---|---|
 | Veículos na frota | 6 (1 saindo por perda total) |
-| Alugados / gerando receita | 3 (Mônaco, Lyon, Munich) |
-| Parados | 1 (Paris — oficina) |
+| Alugados / gerando receita | 2 (Lyon, Munich) — Mônaco indo p/ oficina |
+| Parados | 2 (Paris — oficina; Mônaco — batida nova 26/06 à noite) |
 | Saindo / vendidos | 2 (Stuttgart — perda total; Detroit — vendido p/ Vicente) |
 | **Custo fixo mensal hoje** | **~R$ 5.015** |
 | **Custo fixo após ajustes** | **~R$ 3.447** (economia ~R$ 1.568/mês) |
@@ -24,7 +26,7 @@
 | # | Nome | Modelo | Status | Locatário | Financiamento |
 |---|---|---|---|---|---|
 | 1 | Stuttgart | Gol preto | 🔴 Perda total (seguradora) | — | Carta de crédito (João) |
-| 2 | Mônaco | C4 Cactus branco | 🟢 Alugado | Marcos Rosa | Carta de crédito (João) |
+| 2 | Mônaco | C4 Cactus branco | 🟡 Oficina (batida nova 26/06) | Marcos Rosa | Carta de crédito (João) |
 | 3 | Paris | C4 Lounge cinza | 🟡 Oficina | — (meta: app) | Panamericano (mãe) |
 | 4 | Lyon | C4 grafite | 🟢 Alugado | Lucas | Carta de crédito (João) |
 | 5 | Munich | Fox branco | 🟢 Alugado | Marcos do Lana | Quitado (mãe) |
@@ -38,12 +40,13 @@
 - 📅 **Procon:** **29/06, às 14h30** (confirmado) — 📌 cai numa **segunda-feira** (a etiqueta "sexta" do relatório original estava errada). Agendado via Sebrae (dúvidas de CNPJ). Burocrático porque o carro não está no seu nome.
 - **Financiamento:** carta de crédito no nome do João.
 
-### 2. Mônaco — C4 Cactus branco 🟢
-- **Status:** alugado com Marcos Rosa a **R$ 900/semana** (~R$ 3.900/mês).
-- **Condição:** batida na porta do lado do motorista, dois retrovisores remendados.
-- 💰 **A receber:** R$ 1.500 de calção do Marcos Rosa.
-- 🔧 **Manutenção:** parte é responsabilidade do Marcos Rosa (porta + retrovisores).
-- **Ação:** cobrar o dinheiro **+** negociar a responsabilidade da manutenção.
+### 2. Mônaco — C4 Cactus branco 🟡
+- **Status:** alugado com Marcos Rosa a **R$ 900/semana** (~R$ 3.900/mês). 🆕 **Batida nova na noite de 26/06 → indo pra oficina.**
+- ⚠️ **Impacto (27/06):** com o carro parado, a **renda do Marcos Rosa fica comprometida nos próximos dias** — risco direto no aluguel semanal de R$ 900 que ele te paga.
+- **Condição:** batida antiga na porta do lado do motorista + dois retrovisores remendados; agora soma a **batida nova de 26/06** (avaliar dano e custo).
+- 💰 **A receber:** R$ 1.500 de calção do Marcos Rosa (continua pendente).
+- 🔧 **Manutenção:** parte é responsabilidade do Marcos Rosa (porta + retrovisores). Definir responsabilidade pela **batida nova** também.
+- **Ações:** (1) levar à oficina e orçar a batida nova; (2) definir quem paga o quê; (3) cobrar o calção de R$ 1.500; (4) acompanhar se o Marcos consegue manter o aluguel com o carro parado.
 - **Financiamento:** nome do João, carta de crédito (quase R$ 50 mil de entrada com carro).
 
 ### 3. Paris — C4 Lounge cinza 🟡
@@ -96,7 +99,7 @@
 | Toda sexta | R$ 900 | aluguel semanal (Lyon ou Mônaco) |
 | Todo dia 25 | R$ 3.000 | Vicente (parcela do Cruze) |
 
-> A confirmar qual locatário paga em cada dia. **Vicente:** a parcela do Cruze (R$ 3.000) vence dia 25; em **25/06 pagou metade (R$ 1.500)** — **falta R$ 1.500 deste mês.**
+> A confirmar qual locatário paga em cada dia. **Vicente:** a parcela do Cruze (R$ 3.000) vence dia 25; em **25/06 pagou metade (R$ 1.500)** — **falta R$ 1.500 deste mês.** 🔴 **Em 27/06 ainda NÃO pagou** os R$ 1.500 restantes — cobrar.
 
 ## 🤖 Assistente de agenda — "Friday"
 O assistente pessoal de agenda no celular se chama **Friday** (conversa fixa **"Agenda Diária"**). Ele toca a rotina/dia; **o Code mantém o planejamento**. Ciclo: Friday gera o **relatório diário** → Thales traz pro Code → Code atualiza o planejamento. Contexto pessoal salvo no Drive (pasta *Contexto Claude*).
@@ -108,6 +111,7 @@ O assistente pessoal de agenda no celular se chama **Friday** (conversa fixa **"
 | Devedor | Referente | Valor | Prazo | Status |
 |---|---|---|---|---|
 | Vicente | Cruze (19× R$ 3.000) | **R$ 57.000** | Parcelado | A receber |
+| Vicente | Cruze — metade de junho | R$ 1.500 | Venceu 25/06 | 🔴 Atrasado (não pago em 27/06) |
 | Vicente | Paris (acerto) | R$ 500 | — | A receber |
 | Vicente | Prejuízo C4 Lounge | *a definir* | — | 🔄 Em negociação |
 | Lucas | Lyon (aluguel) | R$ 900 | Esta semana | A receber |
@@ -240,13 +244,14 @@ Vicente alugava o C4 Lounge há anos. No fim de 2025 o C4 parou para manutençã
 
 ## ✅ Prioridades imediatas
 
-1. [ ] **Cobrar Vicente e Marcos Rosa** — liberar capital preso.
-2. [ ] **Liberar o Paris da oficina** — gerar receita com app (maior alavanca de caixa).
-3. [ ] **Regularizar o Detroit** — últimas parcelas do IPVA (CIAR).
-4. [ ] **Confirmar com o João** a redução da parcela da Stuttgart (este mês ou o próximo).
-5. [ ] **Fechar o cálculo do Vicente** (prejuízo do C4) — decidir cenário e fechar a caução.
-6. [ ] **Procon — sexta 29/06, 14h30** (Stuttgart).
-7. [ ] **Cobrar Lucas** — R$ 900 do Lyon (vence esta semana).
+1. [ ] 🆕 **Mônaco na oficina (batida 26/06)** — orçar o dano, definir responsabilidade (Marcos Rosa x você) e ver impacto no aluguel.
+2. [ ] **Cobrar o Vicente** — R$ 1.500 da metade de junho (atrasado desde 25/06) **+** o calção de R$ 1.500 do Marcos Rosa. Liberar capital preso.
+3. [ ] **Liberar o Paris da oficina** — gerar receita com app (maior alavanca de caixa).
+4. [ ] **Regularizar o Detroit** — últimas parcelas do IPVA (CIAR).
+5. [ ] **Confirmar com o João** a redução da parcela da Stuttgart (este mês ou o próximo).
+6. [ ] **Fechar o cálculo do Vicente** (prejuízo do C4) — decidir cenário e fechar a caução.
+7. [ ] **Procon — segunda 29/06, 14h30** (Stuttgart).
+8. [ ] **Cobrar Lucas** — R$ 900 do Lyon (vence esta semana).
 
 ---
 
