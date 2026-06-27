@@ -24,7 +24,7 @@ import os
 import sys
 from datetime import date
 
-from canais import Canal, CanalConsole
+from canais import Canal, canal_padrao
 from pagamentos import Pagamentos, provedor_padrao
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -124,7 +124,7 @@ def main():
         i = sys.argv.index("--data")
         hoje = date.fromisoformat(sys.argv[i + 1])
 
-    rodar(hoje, CanalConsole(), provedor_padrao())
+    rodar(hoje, canal_padrao(), provedor_padrao())
 
 
 if __name__ == "__main__":
