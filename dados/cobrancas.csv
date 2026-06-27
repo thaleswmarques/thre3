@@ -1,0 +1,5 @@
+id,cliente,telefone,referente,valor,vencimento,status,pago_em
+1,Vicente,,Cruze - metade de junho,1500,2026-06-24,pendente,
+2,Lucas,,Lyon - aluguel da semana,900,2026-06-27,pendente,
+3,Marcos Rosa,,Monaco - caucao,1500,2026-06-26,pendente,
+4,Marcos do Lana,,Munich - aluguel da semana,600,2026-06-24,pago,2026-06-26
