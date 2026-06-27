@@ -25,15 +25,13 @@ import sys
 from datetime import date
 
 from canais import Canal, CanalConsole
+from pagamentos import Pagamentos, provedor_padrao
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CSV_COBRANCAS = os.path.join(RAIZ, "dados", "cobrancas.csv")
 
 # Régua de notificações: dias de atraso -> etapa.
 REGUA = {0: "vencimento", 1: "atraso_1", 3: "atraso_3_bloqueio"}
-
-# Marcador de onde o link do Pix entra (gerado pelo provedor de pagamento).
-PIX = "[link do Pix aqui]"
 
 
 def carregar_cobrancas():
@@ -50,8 +48,8 @@ def formata_data(iso):
     return f"{d}/{m}/{a}"
 
 
-def montar_mensagem(etapa, c):
-    """Monta a mensagem de WhatsApp conforme a etapa da régua."""
+def montar_mensagem(etapa, c, pix):
+    """Monta a mensagem de WhatsApp conforme a etapa da régua. `pix` é o link de pagamento."""
     nome = c["cliente"].split()[0]
     valor = formata_reais(c["valor"])
     venc = formata_data(c["vencimento"])
@@ -62,7 +60,7 @@ def montar_mensagem(etapa, c):
             f"Opa {nome}, tudo certo? 👋\n"
             f"Passando pra lembrar que sua mensalidade *{ref}* de {valor} "
             f"vence hoje ({venc}).\n"
-            f"É só pagar pelo Pix: {PIX}\n"
+            f"É só pagar pelo Pix: {pix}\n"
             f"Qualquer coisa, tô à disposição. Valeu! 🙏"
         )
     if etapa == "atraso_1":
@@ -70,7 +68,7 @@ def montar_mensagem(etapa, c):
             f"Oi {nome}, tudo bem? \n"
             f"A cobrança *{ref}* de {valor} venceu ontem ({venc}) e ainda consta "
             f"em aberto.\n"
-            f"Consegue regularizar hoje pelo Pix? {PIX}\n"
+            f"Consegue regularizar hoje pelo Pix? {pix}\n"
             f"Se já pagou, me avisa pra eu dar baixa. Obrigado! 🙏"
         )
     if etapa == "atraso_3_bloqueio":
@@ -78,13 +76,13 @@ def montar_mensagem(etapa, c):
             f"{nome}, a cobrança *{ref}* de {valor} está com *3 dias de atraso* "
             f"(venceu em {venc}).\n"
             f"⚠️ Para evitar o *bloqueio do veículo pelo aplicativo*, peço que "
-            f"regularize ainda hoje pelo Pix: {PIX}\n"
+            f"regularize ainda hoje pelo Pix: {pix}\n"
             f"Se precisar combinar um prazo, me chama que a gente resolve."
         )
     return ""
 
 
-def rodar(hoje: date, canal: Canal):
+def rodar(hoje: date, canal: Canal, pagamentos: Pagamentos):
     cobrancas = carregar_cobrancas()
 
     print("=" * 60)
@@ -109,7 +107,8 @@ def rodar(hoje: date, canal: Canal):
             "atraso_3_bloqueio": "🔴 3 dias — aviso de bloqueio",
         }[etapa]
         print(f"\n[{rotulo}] {c['cliente']} — {c['referente']} ({formata_reais(c['valor'])})")
-        canal.enviar(c["telefone"], montar_mensagem(etapa, c))
+        pix = pagamentos.criar_cobranca(c)  # gera o link de pagamento no provedor
+        canal.enviar(c["telefone"], montar_mensagem(etapa, c, pix))
         enviadas += 1
 
     print("\n" + "-" * 60)
@@ -125,7 +124,7 @@ def main():
         i = sys.argv.index("--data")
         hoje = date.fromisoformat(sys.argv[i + 1])
 
-    rodar(hoje, CanalConsole())
+    rodar(hoje, CanalConsole(), provedor_padrao())
 
 
 if __name__ == "__main__":
